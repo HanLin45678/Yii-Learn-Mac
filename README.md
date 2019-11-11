@@ -8,6 +8,15 @@
 
 ## 我的筆記
 ---
+法1 , 使用xampp (port 80)  
+
+由於mac 內建php, 所以yii.php的#!/usr/bin/env php會亂抓原本得php  
+所以需要改寫yii.php為 #!/usr/bin/env/Applications/XAMPP/xamppfiles/bin/php  
+如此php指向正確的xampp/php 就可使用xampp的port=80了  
+
+
+---
+法2
 我的學習來源 : https://www.yiichina.com/doc/guide/2.0
 (目前正在練習 Getting Started)  
 
@@ -25,6 +34,7 @@ http://localhost:8080/index.php?r=site/entry
 
 測試MySQL : http://localhost:8080/index.php?r=country/index  
 
+---
 
 ---
 Yii 2 Basic Project Template is a skeleton [Yii 2](http://www.yiiframework.com/) application best for
