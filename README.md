@@ -8,11 +8,15 @@
 
 ## 我的筆記
 ---
+測試可在 yii-test/ 執行 $php yii serve 來使伺服器打開  
+
 controllers/SiteController.php  自定義actionSay()  
 views/site/say.php  可以使用 http://localhost:8080/index.php?r=site/say  
 或者使用 http://localhost:8080/index.php?r=site/say&message=Hello+World  來測試  
 
-測試可在 yii-test/ 執行 $php yii serve 來使伺服器打開  
+驗證email :  
+http://localhost:8080/index.php?r=site/entry  
+
 
 
 
