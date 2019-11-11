@@ -17,7 +17,7 @@ views/site/say.php  可以使用 http://localhost:8080/index.php?r=site/say
 驗證email :  
 http://localhost:8080/index.php?r=site/entry  
 
-
+測試MySQL : http://localhost:8080/index.php?r=country/index
 
 
 ---

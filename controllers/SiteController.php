@@ -131,12 +131,12 @@ class SiteController extends Controller
     }
 
 
-    // self-defined
+    // self-defined Say()
     public function actionSay($message = "Hello"){
         return $this->render('say', ['message' => $message]);
     }
 
-    // self-defined
+    // self-defined Entry()
     public function actionEntry()
     {
         $model = new EntryForm; // use app\models\EntryForm; // EntryForm.php
